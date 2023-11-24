@@ -1,0 +1,12 @@
+"hosting": {
+  // ...
+"rewrites": [{
+"source": "**"",
+"function": "app"
+}],
+  "ignore": [
+    "firebase.json",  // the Firebase configuration file (the file described on this page)
+    "**/.*",  // files with a leading period should be hidden from the system
+    "**/node_modules/**"  // contains dependencies used to create your site but not run it
+  ]
+}
