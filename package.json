@@ -1,6 +1,6 @@
 {
    "scripts": {
-      "start": "node app.js",
+      "start": "node --inspect app.js",
       "build": "react-scripts build",
       "predeploy": "npm run build",
       "deploy": "gh-pages -d build"

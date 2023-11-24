@@ -25,7 +25,7 @@ var con = mysql.createConnection({
   user: "yourusername",
   password: "yourpassword"
 });
-
+/*
 con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
@@ -35,7 +35,7 @@ con.connect(function(err) {
   });
 });
 
-
+*/
 
 app.get("/status", (request, response) => {
    const status = {
